@@ -1,0 +1,11 @@
+main-block{
+    height: 85vh;
+    margin: 5% 20%;
+    background-color: #eff2ff;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+main-column:first-child{
+    background-color: dimgrey;
+}
