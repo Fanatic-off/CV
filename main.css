@@ -1,11 +1,47 @@
 main-block{
-    height: 85vh;
-    margin: 5% 20%;
-    background-color: #eff2ff;
+    /* height: 85vh; */
+    /* margin: 5% 20%; */
+    background-color: #e7e7e7;
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 30% 1fr;
+}
+
+main-column{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
 }
 
 main-column:first-child{
-    background-color: dimgrey;
+    background-color: #6d6d6d;
+}
+
+h3{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #464e46;
+    width: 50%;
+}
+
+h4{
+    margin-block-end: 3%;
+    margin-block-start: 5%
+}
+
+block{
+
+}
+
+content{
+    display: block;
+}
+
+.mr-t-5{
+    margin-top: 5%;
+}
+
+language-block{
+    display: flex;
+    justify-content: space-between;
 }
