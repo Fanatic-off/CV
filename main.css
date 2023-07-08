@@ -21,7 +21,20 @@ main-column{
 }
 
 main-column:first-child{
-    background-color: #6d6d6d;
+    background-color: #2b313d;
+}
+
+mini-header{
+    font-weight: bold;
+    color: #000000c4;
+}
+
+circle{
+    width: 20px;
+    height: 20px;
+    margin: 1px 5px 1px 5px;
+    border-radius: 100%;
+    background: rgb(255, 255, 255);
 }
 
 h3{
@@ -39,8 +52,12 @@ h4{
 }
 
 .photo{
-    height: 13em;
+    height: 10em;
     border-radius: 100%;
+}
+
+.f-i{
+    filter: invert(1);
 }
 
 .mr-t-5{
@@ -91,10 +108,3 @@ h4{
     padding-inline: 0 2em;
 }
 
-circle {
-    width: 20px;
-    height: 20px;
-    margin: 1px 5px 1px 5px;
-    border-radius: 100%;
-    background: rgb(255, 255, 255);
-  }
