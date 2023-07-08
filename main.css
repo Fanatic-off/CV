@@ -37,7 +37,7 @@ circle{
     height: 10px;
     margin: 1px 5px 1px 5px;
     border-radius: 100%;
-    background: rgb(214 214 214);
+    background: black;
 }
 
 h3{
@@ -95,8 +95,8 @@ h4{
     align-items: center;
 }
 
-.f-i-80{
-    filter: invert(80%);
+.f-i-50{
+    filter: invert(50%);
 }
 
 .w-20{
