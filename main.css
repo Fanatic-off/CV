@@ -2,7 +2,7 @@
 * {
     color: #2d2d2d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 0.1px 0.1px black;
+    /* text-shadow: 0.1px 0.1px black; */
 }
 
 *:last-child{
@@ -33,17 +33,17 @@ mini-header{
 }
 
 circle{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin: 1px 5px 1px 5px;
     border-radius: 100%;
-    background: rgb(255, 255, 255);
+    background: rgb(214 214 214);
 }
 
 h3{
-    font-family: 'Bebas Neue';
+    /* font-family: 'Bebas Neue';
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
     border-bottom: 3px solid #464e46;
     width: 3em;
     margin: 2em 0 0.5em;
@@ -111,3 +111,6 @@ h4{
     padding-inline: 0 2em;
 }
 
+.p-i-2{
+    padding: 0 2em;
+}
