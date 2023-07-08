@@ -1,6 +1,8 @@
 
 * {
+    color: #2d2d2d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0.1px 0.1px black;
 }
 
 *:last-child{
