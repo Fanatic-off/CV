@@ -22,26 +22,66 @@ h3{
     letter-spacing: 2px;
     border-bottom: 3px solid #464e46;
     width: 50%;
+    margin: 2.5em 0 0.5em;
 }
 
 h4{
-    margin-block-end: 3%;
-    margin-block-start: 5%
-}
-
-block{
-
-}
-
-content{
-    display: block;
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
 }
 
 .mr-t-5{
-    margin-top: 5%;
+    margin-top: 0.5em;
 }
 
-language-block{
+.mr-t-2{
+    margin-top: 2em;
+}
+
+.d-f{
     display: flex;
+}
+
+.d-b{
+    display: block;
+}
+
+.d-g{
+    display: grid;
+}
+
+.g-t-c-2-50{
+    grid-template-columns: 50% 50%;
+}
+
+.j-c-sb{
     justify-content: space-between;
+}
+
+.a-i-c{
+    align-items: center;
+}
+
+.f-i-80{
+    filter: invert(80%);
+}
+
+.w-20{
+    width: 20em;
+}
+
+.p-i-4{
+    padding-inline: 0 4em;
+}
+
+#circle {
+    width: 20px;
+    height: 20px;
+    margin: 1px 5px 1px 5px;
+    border-radius: 100%;
+    background: rgb(255, 255, 255);
+  }
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
