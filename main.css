@@ -10,7 +10,8 @@
 }
 
 main-block{
-    background-color: #e7e7e7;
+    box-shadow: 1em 1em 4em 1em #6f6f6f;
+    background-color: #ffffff;
     display: grid;
     grid-template-columns: 30% 1fr;
 }
@@ -106,7 +107,7 @@ h4{
     padding: 0 25em;
 }
 
-.p-i-2{
+.p-i-0-2{
     padding-inline: 0 2em;
 }
 
