@@ -1,6 +1,13 @@
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*:last-child{
+    font-size: 15px;
+}
+
 main-block{
-    /* height: 85vh; */
-    /* margin: 5% 20%; */
     background-color: #e7e7e7;
     display: grid;
     grid-template-columns: 30% 1fr;
@@ -10,6 +17,7 @@ main-column{
     display: flex;
     flex-direction: column;
     padding: 5%;
+    overflow: auto;
 }
 
 main-column:first-child{
@@ -21,8 +29,8 @@ h3{
     text-transform: uppercase;
     letter-spacing: 2px;
     border-bottom: 3px solid #464e46;
-    width: 50%;
-    margin: 2.5em 0 0.5em;
+    width: 3em;
+    margin: 2em 0 0.5em;
 }
 
 h4{
@@ -30,12 +38,13 @@ h4{
     margin-block-start: 0.5em;
 }
 
-.mr-t-5{
-    margin-top: 0.5em;
+.photo{
+    height: 13em;
+    border-radius: 100%;
 }
 
-.mr-t-2{
-    margin-top: 2em;
+.mr-t-5{
+    margin-top: 0.5em;
 }
 
 .d-f{
@@ -58,6 +67,10 @@ h4{
     justify-content: space-between;
 }
 
+.j-c-c{
+    justify-content: center;
+}
+
 .a-i-c{
     align-items: center;
 }
@@ -70,18 +83,18 @@ h4{
     width: 20em;
 }
 
-.p-i-4{
-    padding-inline: 0 4em;
+.p-0-25{
+    padding: 0 25em;
 }
 
-#circle {
+.p-i-2{
+    padding-inline: 0 2em;
+}
+
+circle {
     width: 20px;
     height: 20px;
     margin: 1px 5px 1px 5px;
     border-radius: 100%;
     background: rgb(255, 255, 255);
   }
-
-* {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
